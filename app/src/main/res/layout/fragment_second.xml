@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_secFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Fragment"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#BF1BAA"/>
+
+        <Button
+            android:id="@+id/btn_sendtofirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send to first"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
